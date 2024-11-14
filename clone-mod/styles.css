@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1C1C1C;
+    font-family: "Inter", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4B4B4B80;
+    padding: 0.3em;
+    margin-block: 2em;
+    border-radius: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0.8em 1.8em;
+    border-radius: 100px;
+    font-size: 0.9em;
+}
+
+#home {
+    background-color: #A9A9A980;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    top: 10em;
+    position: relative;
+    align-items: center;
+    width: 100%;
+}
+
+.mid_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2.5em;
+    justify-content: center;
+}
+
+.mid_section h1 {
+    font-size: 4.5em;
+    width: 65%;
+    font-weight: 500;
+    color: #F5F5F5;
+}
+
+.mid_section .keywords {
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    align-items: center;
+    justify-content: space-between;
+    color: #F5F5F5;
+}
+
+.bordered {
+    background-color: #A9A9A980;
+    padding: 0.4em 0.7em;
+    border-radius: 100px;
+}
+
+.grid_content {
+    display: grid;
+    row-gap: 2em;
+    column-gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    /* divide as colunas em metade/metade */
+    margin-top: 10em;
+    width: 70%;
+}
+
+.grid_content a {
+    height: 30em;
+    border-radius: 0.7em;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.grid_content a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bottom_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3em;
+    margin-top: 10em;
+    font-weight: 500;
+    color: #F5F5F5;
+}
+
+.bottom_content a {
+    font-size: 2em;
+    text-decoration: none;
+    color: #A9A9A9;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.9em;
+    margin-top: 200px;
+    margin-bottom: 3em;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+footer .links {
+    display: flex;
+    gap: 10px;
+    padding-right: 280px;
+}
+
+footer span {
+    padding-left: 280px;
+    color: #F5F5F5;
+}
+
+footer .links a {
+    text-decoration: none;
+    color: #A9A9A980;
+}
